@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+    gap: 100px;
+}
+
+.home-nav{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+.musica-nav{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+.ilustracao-nav{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.repositorio-musica{
+    font-size: 40px;
+}
+
+.parte2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.bandlab{
+    display: flex;
+    flex-direction: column;
+}
+.barrinha-lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow:  -1px 5px 6px 1px rgb(202, 202, 202);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    padding: 5px;
+    margin: 30px;
+    height: 400px;
+}
+.conteudo-principal{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin:30px;
+    margin-left: 5px;
+    box-shadow: -1px 5px 6px 1px rgb(202, 202, 202);
+
+}
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer{
+    background-image: linear-gradient(to right, rgb(0, 255, 191),rgb(2, 134, 101));
+    height: 200px;
+    margin-top: 50px;  
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.titulo-principal{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+}
+.pre-titulo{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+}
+
+.conteudo-bloco{
+    display: flex;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 1px rgb(167, 167, 167);
+    border-radius: 10px;
+    margin: 10px;
+    width: 450px;
+    background-color: white;
+    
+}
+.nome-musica{
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.data{
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+}
+
+.lista{
+    font-family: 'Quicksand', sans-serif; 
+    padding: 20px;
+}
+
+.linha{
+    background-color: rgb(116, 116, 116);
+    height: 0.4px;
+}
+.desc{
+    padding-top: 20px;
+}
+
+
+.pre-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    font-family: 'Quicksand', sans-serif; 
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagem-reprodutor{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(190, 187, 187);
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+
+.audio{
+   margin-top: 20px;
+}
+
+
+
